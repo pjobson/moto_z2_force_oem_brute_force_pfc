@@ -32,3 +32,83 @@ I'm running node v10.1.0.
     fastboot devices
     node oemunlockbrute.js
 
+It'll show you the progress as it goes.
+
+	Iteration: 0
+	Tried: 00000000000000000000
+	Returned: ...
+	(bootloader) Code validation failure
+	OKAY [  0.012s]
+	finished. total time: 0.012s
+
+	Iteration: 1
+	Tried: 10000000000000000000
+	Returned: ...
+	(bootloader) Code validation failure
+	OKAY [  0.006s]
+	finished. total time: 0.006s
+
+	Iteration: 2
+	Tried: 20000000000000000000
+	Returned: ...
+	(bootloader) Code validation failure
+	OKAY [  0.006s]
+	finished. total time: 0.006s
+
+	Iteration: 3
+	Tried: 30000000000000000000
+	Returned: ...
+	(bootloader) Code validation failure
+	OKAY [  0.006s]
+	finished. total time: 0.006s
+
+	Iteration: 4
+	Tried: 40000000000000000000
+	Returned: ...
+	(bootloader) Code validation failure
+	OKAY [  0.006s]
+	finished. total time: 0.006s
+
+	Iteration: 5
+	Tried: 50000000000000000000
+	Returned: ...
+	(bootloader) Code validation failure
+	OKAY [  0.006s]
+	finished. total time: 0.006s
+
+	Iteration: 6
+	Tried: 60000000000000000000
+	Returned: ...
+	(bootloader) Code validation failure
+	OKAY [  0.006s]
+	finished. total time: 0.006s
+
+	Iteration: 7
+	Tried: 70000000000000000000
+	Returned: ...
+	(bootloader) Code validation failure
+	OKAY [  0.006s]
+	finished. total time: 0.006s
+
+	Iteration: 8
+	Tried: 80000000000000000000
+	Returned: ...
+	(bootloader) Code validation failure
+	OKAY [  0.006s]
+	finished. total time: 0.006s
+
+	Iteration: 9
+	Tried: 90000000000000000000
+	Returned: ...
+	(bootloader) Code validation failure
+	OKAY [  0.006s]
+	finished. total time: 0.006s
+
+	Iteration: 10
+	Tried: A0000000000000000000
+	Returned: ...
+	(bootloader) Code validation failure
+	OKAY [  0.006s]
+	finished. total time: 0.006s
+
+It checks to see if the device returns "Code validation failure" then tries the next code if so.  If not, it'll display something else and stop.  I have no idea what it will display if anything.
