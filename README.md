@@ -20,7 +20,8 @@ This tries to brute force the code by iterating through each possible code:
 
 I let it run for a couple hours and got through 1,643,833 combinations which was up to `Z8E10000000000000000`.
 
-There are a total of 36<sup>20</sup> combinations which is this many, if my math is not off `13,367,495,000,000,000,000,000,000,000,000`.
+There are a total of 36<sup>20</sup> combinations which is this many, if my math is not off `13,367,495,000,000,000,000,000,000,000,000`, at about `0.006` seconds per try, it would take about 2.5 Sextillion years to complete, the end of the universe is expected to occur in the next 5 Billion years.  Unless you get lucky, you're probably out of luck in using this for any practical application.
+
 
 Running all of them would take a really long time, though if you're bored, you can experiment with this.
 
